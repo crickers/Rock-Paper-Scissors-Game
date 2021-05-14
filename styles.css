@@ -1,0 +1,25 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    background-color: #24272E;
+}
+
+header {
+    background: #355C7D;
+    padding: 25px;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.score-board{
+    border: 5px solid white:
+}
