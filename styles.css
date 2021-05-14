@@ -1,62 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC');
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC");
 
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #24272E;
+  background-color: #24272e;
 }
 
 header {
-    background: #355C7D;
-    padding: 25px;
+  background: #355c7d;
+  padding: 25px;
 }
 
 header > h1 {
-    color: white;
-    text-align: center;
-    font-family: Bowlby One, sans-serif;
+  color: white;
+  text-align: center;
+  font-family: Bowlby One, sans-serif;
+  font-size: 60px;
 }
 
 /*scoreboard is parent of #user-label*/
-.score-board{
-    margin: 25px auto;
-    border: 5px solid #09b4b4;
-    border-radius: 4px;
-    text-align: center;
-    width: 300px;
-    color:#24272E;
-    font-size: 80px;
-    padding: 15px, 25px;
-    font-family: Bowlby One, sans-serif;
-    position: relative;
+.score-board {
+  margin: 25px auto;
+  border: 5px solid #09b4b4;
+  border-radius: 4px;
+  text-align: center;
+  width: 300px;
+  color: #24272e;
+  font-size: 80px;
+  padding: 15px, 25px;
+  font-family: Bowlby One, sans-serif;
+  position: relative;
 }
 
 .badge {
-    background: #f16b53;
-    color: white;
-    font-size: 16 px;
-    padding: 3px 12px;
-    font-family: Bowlby One, sans-serif;
+  background: #f16b53;
+  color: white;
+  font-size: 16 px;
+  padding: 3px 12px;
+  font-family: Bowlby One, sans-serif;
 }
 
-/*Position in top left corner of scoreboard.*/ 
+/*Position in top left corner of scoreboard.*/
 /*#user-label is child of scoreboard */
 #user-label {
-    position: absolute;
-    top: 30px;
-    /*negative pixels to push #user-label to the  of axis*/
-    left: -30px;   
-    font-size: 20px;
+  position: absolute;
+  top: 30px;
+  /*negative pixels to push #user-label to the  of axis*/
+  left: -30px;
+  font-size: 20px;
 }
 
 #computer-label {
-    position: absolute;
-    top: 30px;
-    /*negative pixels to push #user-label to the  of axis*/
-    right: -30px;  
-    font-size: 20px; 
+  position: absolute;
+  top: 30px;
+  /*negative pixels to push #user-label to the  of axis*/
+  right: -30px;
+  font-size: 20px;
+}
+
+.result {
+  font-size: 30px;
+  color: white;
+}
+
+.result > p {
+  text-align: center;
+  font-weight: bold;
+  font-family: Bowlby One, sans-serif;
+}
+
+/*.choices is the parent of .choice*/
+.choices {
+  text-align: center;
+  margin: 50px 0;
+}
+
+/*display icons side-by-side*/
+.choice {
+  margin: 0 10px;
+  display: inline-block;
 }
