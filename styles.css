@@ -48,7 +48,7 @@ header > h1 {
 /*#user-label is child of scoreboard */
 #user-label {
   position: absolute;
-  top: 30px;
+  top: 20px;
   /*negative pixels to push #user-label to the  of axis*/
   left: -30px;
   font-size: 20px;
@@ -56,7 +56,7 @@ header > h1 {
 
 #computer-label {
   position: absolute;
-  top: 30px;
+  top: 20px;
   /*negative pixels to push #user-label to the  of axis*/
   right: -30px;
   font-size: 20px;
