@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC');
 
 *{
 margin: 0;
@@ -17,9 +18,45 @@ header {
 header > h1 {
     color: white;
     text-align: center;
-    font-family: sans-serif;
+    font-family: Bowlby One, sans-serif;
 }
 
+/*scoreboard is parent of #user-label*/
 .score-board{
-    border: 5px solid white:
+    margin: 25px auto;
+    border: 5px solid #09b4b4;
+    border-radius: 4px;
+    text-align: center;
+    width: 300px;
+    color:#24272E;
+    font-size: 80px;
+    padding: 15px, 25px;
+    font-family: Bowlby One, sans-serif;
+    position: relative;
+}
+
+.badge {
+    background: #f16b53;
+    color: white;
+    font-size: 16 px;
+    padding: 3px 12px;
+    font-family: Bowlby One, sans-serif;
+}
+
+/*Position in top left corner of scoreboard.*/ 
+/*#user-label is child of scoreboard */
+#user-label {
+    position: absolute;
+    top: 30px;
+    /*negative pixels to push #user-label to the  of axis*/
+    left: -30px;   
+    font-size: 20px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 30px;
+    /*negative pixels to push #user-label to the  of axis*/
+    right: -30px;  
+    font-size: 20px; 
 }
